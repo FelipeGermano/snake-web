@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Minhoca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Jogo da Minhoca</h1>
+    <div class="score-board">
+        <span>Pontuação: <span id="score">0</span></span>
+        <span>Melhor: <span id="high-score">0</span></span>
+    </div>
+    <canvas id="gameCanvas" width="320" height="320"></canvas>
+    <div class="controls">
+        <button onclick="setDifficulty('easy')">Fácil</button>
+        <button onclick="setDifficulty('medium')">Médio</button>
+        <button onclick="setDifficulty('hard')">Difícil</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
